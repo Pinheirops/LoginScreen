@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../imagem/image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  color: #ffffff8e;
+  text-decoration: none;
+}
+
+.container-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  height: 25rem;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 30px 30px 0px;
+  background-image: linear-gradient(to top, #ffffff1c, #ffffff15, #ffffff1e);
+  border: 2px solid #ffffff30;
+  border-left: none;
+  box-shadow: 1px 1px 15px black;
+}
+
+.titulo {
+  color: white;
+}
+
+.email,
+.senha {
+  padding: 10px 20px;
+  background-color: #2b2b2b;
+  border-radius: 0px 15px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.botao {
+  background-color: #2b2b2b;
+  padding: 8px 50px;
+  color: white;
+  border-radius: 15px 0px;
+  border: 2px solid white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  align-self: end;
+  margin-right: 31px;
+}
+.botao:hover {
+  background-color: #ffffff11;
+  border-radius: 0px 15px;
+  transition: 0.5s;
+}
+
+.check {
+  display: flex;
+  gap: 5px;
+  align-self: flex-end;
+  margin-right: 49px;
+  color: white;
+}
+
+.nova-senha,
+.nova-conta {
+  color: white;
+}
+
+.nova-senha a:hover,
+.nova-conta a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.container-2 {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  border-right: none;
+  justify-content: center;
+}
+
+.imagem {
+  border: 2px solid #ffffff30;
+  border-right: none;
+  box-shadow: 1px 0px 15px black;
+  max-height: 100%;
+  border-radius: 50px 0px 0px 50px;
+}
